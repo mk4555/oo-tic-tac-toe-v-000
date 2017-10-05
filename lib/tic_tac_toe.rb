@@ -36,6 +36,7 @@ class TicTacToe
   end
 
   def turn
+    display_board
     puts "Enter number 1-9:"
     input = gets.chomp
     index = input_to_index(input)
